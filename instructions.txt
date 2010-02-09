@@ -17,11 +17,11 @@ Next steps:
   git push origin master
 
   git branch newbranch
-  git checkout branchtomoveto 
+  git checkout branch
   git rm filename
-  git reset --hard
-  git revert
-  git rebase -i HEAD~2     
+  git reset --hard HEAD   (moves to specified commit and cannot be undone)
+  git revert [-n] HEAD
+  git rebase -i HEAD     
 
 Existing Git Repo?
 
