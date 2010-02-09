@@ -15,7 +15,13 @@ Next steps:
   git commit -m 'first commit'
   git remote add origin git@github.com:albertas/test.git
   git push origin master
-      
+
+  git branch newbranch
+  git checkout branchtomoveto 
+  git rm filename
+  git reset --hard
+  git revert
+  git rebase -i HEAD~2     
 
 Existing Git Repo?
 
