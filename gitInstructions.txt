@@ -19,9 +19,10 @@ Next steps:
   git branch newbranch
   git checkout branch
   git rm filename
-  git reset --hard HEAD   (moves to specified commit and cannot be undone)
-  git revert [-n] HEAD
+  git reset --hard HEAD   (rollback to specified commit; cannot be undone)
+  git revert [-n] HEAD   (rollback to specified commit; creates new commit)
   git rebase -i HEAD     
+  git clone git@github.com:albertas/test.git (downloads github repo)
 
 Existing Git Repo?
 
