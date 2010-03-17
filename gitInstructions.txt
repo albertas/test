@@ -24,6 +24,8 @@ Next steps:
   git rebase -i HEAD     
   git clone git@github.com:albertas/test.git (downloads github repo)
 
+  vi .gitignore (files to ignore register)
+
 Existing Git Repo?
 
   cd existing_git_repo
